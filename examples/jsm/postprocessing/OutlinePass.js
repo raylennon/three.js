@@ -221,7 +221,7 @@ class OutlinePass extends Pass {
 
 		function VisibilityChangeCallBack( object ) {
 
-			if ( object.isMesh || object.isLine || object.isSprite || object.isTransformControls )
+			if ( object.isMesh || object.isLine || object.isSprite || object.isTransformControls ) {
 
 				// only meshes and sprites are supported by OutlinePass
 
